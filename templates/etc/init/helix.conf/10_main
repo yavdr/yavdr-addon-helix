@@ -14,5 +14,5 @@ vdr-dbus-send /Remote remote.Enable ||:
 /sbin/initctl emit --no-wait vdr-frontend-restart
 end script
 
-exec su -c "/opt/HELI-X30/runHELI-X.sh" vdr
+exec su -c "/opt/HELI-X6/runHELI-X.sh" vdr
 
