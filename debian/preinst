@@ -2,11 +2,11 @@
 
 if [ install = "$1" -o upgrade = "$1" ]; then 
 	cd /opt        
-	rm -f /opt/HELI-X30.zip
-	wget http://www.heli-x.info/30/HELI-X30.zip
-	unzip HELI-X30.zip
-	chown -R vdr.vdr HELI-X30
-	chmod 555 HELI-X30/runHELI-X64.sh
+	rm -f /opt/HELI-X*.tar.gz
+	wget http://www.heli-x.info/1616/HELI-X6.tar.gz
+	tar xzf HELI-X6.tar.gz
+	chown -R vdr.vdr HELI-X6
+	chmod 555 HELI-X6/runHELI-X.sh
 	echo "Installing demo version of HELI-X flight simulator"
 fi
 
