@@ -1,3 +1,9 @@
+yavdr-addon-helix (0.0.2-0yavdr0) trusty; urgency=low
+   
+   * new heli-x version
+   
+ -- Alexander Grothe <seahawk1986@gmx.de>  Do, 24 November 2016 11:50:00 +0200
+
 yavdr-addon-helix (0.0.1.2830-1yavdr1) lucid; urgency=low
 
   * build 
